@@ -31,7 +31,7 @@ namespace TommyBot
             _client = new DiscordSocketClient();
             new CommandHandler();
 
-            await _client.LoginAsync(TokenType.Bot, "NDcwMzkzOTI4MzgyNjc3MDAy.DtesQA.zXxE6jutPc8rfrmgfdwW0EiiYXU");
+            await _client.LoginAsync(TokenType.Bot, "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
             await _client.SetStatusAsync(UserStatus.Online);
             await _client.StartAsync();
             _handler = new CommandHandler();
